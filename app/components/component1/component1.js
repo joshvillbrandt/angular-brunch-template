@@ -16,7 +16,7 @@ function() {
 
       // component logic goes here
       $scope.$watch('arg', function(newVal, oldVal) {
-        $scope.arg2 = newVal + '!';
+        $scope.arg2 = newVal.toUpperCase();
       });
 
     },

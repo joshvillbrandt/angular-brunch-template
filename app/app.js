@@ -10,14 +10,14 @@ var app = angular.module('app', [
   'ui.bootstrap',
   'ui.utils',
   // global components (for app.js and index.html)
-  // 'navbar',
+  'navbar',
   // pages
   'page.home',
-  // 'page.page1',
+  'page.page1',
 ]);
 
 // set app variables
-app.value('version', '1.0.0');
+app.value('appVersion', '1.0.0');
 
 // configure app
 app.config(function($routeProvider, $locationProvider, $compileProvider) {
